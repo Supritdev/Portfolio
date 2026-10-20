@@ -957,6 +957,24 @@ section p {
     max-width: 90%;
     text-align: center;
 }
+.project {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover glow effect for project cards */
+.project:hover {
+    transform: translateY(-4px);
+    border-color: #4CAF50;
+    background: rgba(76, 175, 80, 0.08);
+    box-shadow: 0 0 25px rgba(76, 175, 80, 0.3);
+}
 
 @media screen and (max-width: 767px) {
     .welcome-text {
